@@ -16,7 +16,7 @@ public class MencariNilaiArray {
         for (int i = 0; i < data.length; i++) {
             // Logika untuk mencari nilai.
             if (data[i] == n) {
-                System.out.println("\nAnkga ditemukan pada indeks ke-" + i);
+                System.out.println("\nAngka ditemukan pada indeks ke-" + i);
                 return; // Return digunakan untuk keluar dari perulangan for jika nilainya true.
             }
         }
